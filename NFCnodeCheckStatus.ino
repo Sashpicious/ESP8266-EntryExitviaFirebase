@@ -25,7 +25,7 @@ PN532 nfc(pn532spi);
 
 //Timezone
 WiFiUDP ntpUDP;
-const long utcOffsetInSeconds = 28800; //(UTC+8) Get Malaysia time
+const long utcOffsetInSeconds = 28800; //(UTC+8) 
 NTPClient timeClient(ntpUDP, "pool.ntp.org");
 
 
